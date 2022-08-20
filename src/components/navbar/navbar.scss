@@ -1,0 +1,85 @@
+.navbar {
+    position : fixed;
+    top : 0;
+    width : 100%;
+    color : white;
+    font-size: 0.875rem;
+    z-index: 999;
+    background: linear-gradient(to top, transparent 0%, rgb(0,0,0,0.3) 50%);
+
+   &.scrolled{
+    background-color: var(--main-color);
+   }     
+}
+
+
+
+
+
+.container {
+    padding : 0 3.125rem;
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+    height : 4.375rem;
+    .left{
+        display : flex;
+        align-items: center;
+        img{
+            height : 1.875rem;
+            margin-right : 1.25rem;
+        }
+
+        span{
+            white-space: nowrap;
+            margin-right : 1.25rem;
+            cursor : pointer;
+        }
+    }
+
+
+    
+    .right{
+        display : flex;
+        align-items: center;
+        img{
+            width : 1.875rem;
+            height : 1.875rem;
+            border-radius: 50%;
+            object-fit: cover;
+            cursor : pointer;
+        }
+
+        .icon{
+           margin : 0 0.938rem; 
+           cursor : pointer;
+        }
+
+        span{
+            display: inline;
+            cursor : pointer;
+        }
+    }
+
+
+    .profile{
+        .options{
+            display : none;
+            background-color: var(--main-color);
+            border-radius : 0.313rem;
+            padding : 1.25rem;
+            span{
+                margin : 0.625rem;
+                cursor : pointer;
+            }
+        }
+        &:hover{
+            .options{
+                display : flex;
+                flex-direction: column;
+                position : absolute;
+            }
+        }
+    }
+ 
+}

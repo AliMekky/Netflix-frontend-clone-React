@@ -1,0 +1,104 @@
+.register{
+    width : 100vw;
+    height : 100vh;
+    background:linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%), url("http://www.7elwa.com/sites/default/files/images/editor/dUyCkp.jpg");
+    background-size: cover;
+    position : relative;
+    .top{
+        .wrapper{
+            padding : 20px 50px;
+            display : flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .logo{
+                height : 40px;
+            }
+
+            .loginButton{
+                background-color: red;
+                color : white;
+                border : none;
+                border-radius : 5px;
+                padding : 5px 15px;
+                font-size: 16px;
+                font-weight: 500;
+                cursor : pointer;
+            }
+
+            
+        }
+
+    }
+    .registerContainer{
+        width : 100%;
+        height : 100%;
+        display : flex;
+        position : absolute;
+        top : 0;
+        left : 0;
+        align-items: center;
+        justify-content: center;
+        color : white;
+        flex-direction: column;
+        h1{
+            margin-bottom: 10px;
+            width : 600px;
+            text-align: center;
+            font-size: 50px;;
+        }
+
+        h2{
+            margin-bottom: 10px;
+            font-weight: 400;
+            font-size: 20px;
+        }
+
+        p{
+            margin-bottom: 20px;
+            font-weight: 100;
+            font-size: 14px;
+        }
+
+        .input{
+            width : 50%;
+            display : flex;
+            align-items: center;
+            justify-content: space-between;
+            height : 50px;
+            border-radius: 5px;
+            input{
+                height : 100%;
+                padding : 0 5px;
+                border : none;
+                width : 70%; //or flex : 9 and the button is flex : 3
+            }
+            .registerButton{
+                width : 30%;
+                height: 100%;
+                 
+                padding : 0 5px;
+                background-color: rgb(177, 14, 14);
+                color : white;
+                border: none;
+                font-size: 1rem;
+                font-weight: 200;
+                cursor : pointer;
+                display : flex;
+                align-items: center;
+                justify-content: center;
+                .icon{
+                    font-size: 1rem;
+                    font-weight: 100;
+                    margin-left: 5px;;
+                    
+                }
+            }
+        }
+
+    }
+}
+
+// @media (){
+
+// }

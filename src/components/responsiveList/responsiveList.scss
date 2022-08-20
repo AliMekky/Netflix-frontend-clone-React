@@ -1,0 +1,31 @@
+
+body{
+    overflow-x: hidden;
+}
+
+.listContainer{
+    width : 100%;
+    margin : 0;
+    z-index: 0;
+    .listTitle{
+        color : white;
+        margin-left: 50px;
+        //margin-top : 10px;
+    }
+    .carousel{
+        overflow: visible;
+        margin-left: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;;
+        
+        .item{
+            position : absolute;
+            z-index: 0;
+
+            &:hover{
+                z-index: 1;
+            }
+
+        }
+    }
+}
