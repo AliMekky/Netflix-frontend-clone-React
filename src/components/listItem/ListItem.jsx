@@ -17,24 +17,24 @@ function ListItem(props) {
       {isHovered && (<div>
         <video src = {videoURL} autoPlay = {true} loop/>
         <div className = "itemInfo">
-        <div className = "icons">
+          <div className = "icons">
             <PlayIcon className = "listIcon"/>
             <AddIcon className = "listIcon"/>
             <ThumbUpOutlinedIcon className = "listIcon"/>
             <ThumbDownOutlinedIcon className = "listIcon"/>
-        </div>
-        <div className = "itemInfoTop">
+          </div>
+          <div className = "itemInfoTop">
             <span>1 hour 14 mins</span>
             <span className = "limit">+16</span>
             <span>2019</span>
-        </div>
-        <div className = "desc">
-        Lorem ipsum dolor sit mollit anim id est laborum.
-        </div>
-        <span className = "genre">Action</span>
-      </div>  
+          </div>
+          <div className = "desc">
+            Lorem ipsum dolor sit mollit anim id est laborum.
+          </div>
+          <span className = "genre">Action</span>
+        </div>  
 
-        </div>)}
+      </div>)}
       
     </div>
 

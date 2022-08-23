@@ -10,8 +10,8 @@ import Navbar from "./components/navbarResponsive/Navbar.jsx";
 
 const App = () => {
   //return <Login />;
-  return <Home />;
-  //return <Register />;
+  //return <Home />;
+  return <Register />;
   //return <Login />
   //return <Featured/>;
   //return <Navbar />
